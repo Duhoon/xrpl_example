@@ -1,0 +1,60 @@
+My Balance: 100
+{
+  api_version: 2,
+  id: 5,
+  result: {
+    accepted: true,
+    account_sequence_available: 5709603,
+    account_sequence_next: 5709603,
+    applied: true,
+    broadcast: true,
+    engine_result: 'tesSUCCESS',
+    engine_result_code: 0,
+    engine_result_message: 'The transaction was applied. Only final in a validated ledger.',
+    kept: true,
+    open_ledger_cost: '10',
+    queued: false,
+    tx_blob: '12000022000000002400571F22201B0057FBE8614000000002FAF08068400000000000000C7321ED3DB762615CD1024FD85ED0BCFB2BB5492A8A50F68A2777D9827DB691EE3E5EEF744022E65F934B3E9A1A93E31C2B459E3F2536217F274C090744CF36561239840C5123419FB90E21B527FCDB9B942A8D766ECBC62A776EE671AD002DDE1476FA7E0481142E9979E6816E3F33F6DC4FEF55E21AD8128F3FD183141D32DFD836D3473A41E5E5395B20584C4A2406EDF9EA7C1364657374696E6174696F6E5F616464726573737D14F39FD6E51AAD88F6F4CE6AB8827279CFFFB92266E1EA7C1164657374696E6174696F6E5F636861696E7D0F7872706C2D65766D2D746573742D31E1F1',
+    tx_json: {
+      Account: 'rnEPAYnp66oCXKXASX1wiGVBwepJJK7Kxo',
+      Amount: '50000000',
+      Destination: 'rsCPY4vwEiGogSraV9FeRZXca6gUBWZkhg',
+      Fee: '12',
+      Flags: 0,
+      LastLedgerSequence: 5766120,
+      Memos: [Array],
+      Sequence: 5709602,
+      SigningPubKey: 'ED3DB762615CD1024FD85ED0BCFB2BB5492A8A50F68A2777D9827DB691EE3E5EEF',
+      TransactionType: 'Payment',
+      TxnSignature: '22E65F934B3E9A1A93E31C2B459E3F2536217F274C090744CF36561239840C5123419FB90E21B527FCDB9B942A8D766ECBC62A776EE671AD002DDE1476FA7E04',
+      hash: 'BED0A612AF8B7BD94C50AF6C22F6D565756C145D73F47319108F51DB056C9B0B'
+    },
+    validated_ledger_index: 5766100
+  },
+  type: 'response'
+}
+
+--------------------------------------------------------------------------------------------------------
+
+✔ Confirm deploy to network xprlTestEVM (1449000)? … yes
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/FungibleToken.sol
+
+
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/NonFungibleToken.sol
+
+
+Compiled 20 Solidity files successfully (evm target: paris).
+Hardhat Ignition 🚀
+
+Deploying [ FungibleToken ]
+
+Batch #1
+  Executed FungibleToken#FungibleToken
+
+[ FungibleToken ] successfully deployed 🚀
+
+Deployed Addresses
+
+FungibleToken#FungibleToken - 0x5FbDB2315678afecb367f032d93F642f64180aa3
