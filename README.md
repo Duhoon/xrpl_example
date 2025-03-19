@@ -1,13 +1,24 @@
-# Sample Hardhat Project
+# .env 설정하기
+```bash
+XRPL_RPC_URL=wss://s.altnet.rippletest.net:51233/
+XRPL_EVM_RPC_URL=https://rpc.testnet.xrplevm.org
+XRPL_PK={XRPL Testnet 지갑 개인키}
+EVM_PK={EVM 기반 지갑 개인키}
+```
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## XRPL_PK 얻는 방법
+[Faucet 링크](https://xrpl.org/resources/dev-tools/xrp-faucets)
+위 링크에서 테스트용 XRPL이 있는 지갑을 생성해서 개인키를 얻을 수 있다.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+# 작동
+```bash
+// 종속 패키지 설치
+yarn install
+
+// Testnet 에서 EVM Testnet으로 XRPL 전송하기
+yarn xrpl
+
+// 토큰 컨트랙트 배포하기
+yarn deploy
 ```
